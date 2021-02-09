@@ -4,8 +4,11 @@ Fes un programa en C, fent servir programació modular, que llegeix per teclat u
 
 Un cop s'ha introduït el número inicial, l'usuari l'haurà d'encertar. Evidentment el número està en pantalla i l'usuari el pot veure, però suposarem que no l'ha vist. D'acord? Llavors, l'usuari podrà introduir números de 4 xifres fins que l'encerti o bé s'acabin els intents que té per fer-ho.
 Després d'introduir l'usuari un número per intentar encertar-lo, el programa haurà de dir quantes xifres ha encertat i quantes d'aquestes estan en posició correcta.
+
 El nombre màxim d'intents serà 5. Si després d'aquest nombre d'intents, l'usuari no l'ha encertat, llavors treurà un missatge per pantalla dient-ho.
+
 Si l'usuari encerta el número abans d'exhaurir el nombre màxim d'intents, el programa haurà de dir que ha guanyat.
+
 Per fer-ho, com a orientacions, cal tenir en compte el següent:
 
 s'haurà crear un bucle while() amb una doble condició, que tindrà en compte el nombre d'intents i també el nombre de xifres encertades.
